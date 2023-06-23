@@ -1,4 +1,4 @@
-f<!--A curated list of resources for Image and Video Deblurring-->
+<!--A curated list of resources for Image and Video Deblurring-->
 <!-- PROJECT LOGO -->
 
 <p align="center">
