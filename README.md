@@ -1,4 +1,4 @@
-<!--A curated list of resources for Image and Video Deblurring-->
+f<!--A curated list of resources for Image and Video Deblurring-->
 <!-- PROJECT LOGO -->
 
 <p align="center">
@@ -155,7 +155,9 @@
 ## 2.1 Image / Video Reconstruction
 | Publication | Title                                                                                                                                              | Highlight |
 | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
-| CVPR 2021   | mage Reconstruction From Neuromorphic Event Cameras Using Laplacian-Prediction and Poisson Integration With Spiking and Artificial Neural Networks |           |
+| CVPR 2023   | EvShutter: Transforming Events for Unconstrained Rolling Shutter Correction |      🆕     |
+| CVPR 2023   | Learning Event Guided High Dynamic Range Video Reconstruction |      🆕     |
+| CVPR 2021   | Image Reconstruction From Neuromorphic Event Cameras Using Laplacian-Prediction and Poisson Integration With Spiking and Artificial Neural Networks |           |
 | CVPR 2021   | Event-Based Synthetic Aperture Imaging With a Hybrid Network                                                                                       |           |
 | CVPR 2021   | Learning To Reconstruct High Speed and High Dynamic Range Videos From Events                                                                       |           |
 | CVPR 2021   | Back to Event Basics: Self-Supervised Learning of Image Reconstruction for Event Cameras via Photometric Constancy                                 |           |
@@ -172,6 +174,7 @@
 ### (1) Reconstruction and SR
 | Publication         | Title                                                                                                                            | Highlight                                    |
 | ------------------- | -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| CVPR 2023           | High-Fidelity Event-Radiance Recovery via Transient Event Frequency                                                              | High-fidelity Event-Radiance Recovery 🆕     |
 | ICCV 2021           | EvIntSR-Net: Event Guided Multiple Latent Frames Reconstruction and Super-resolution                                             | Latent frame reconstruction; MISR            |
 | ECCV 2020           | Event Enhanced High-Quality Image Recovery                                                                                       | eSL-Net; Sparse learning                     |
 | CVPR 2020           | Joint Filtering of Intensity Images and Neuromorphic Events for High-Resolution Noise-Robust Imaging                             | GEF; Joint filtering                         |
@@ -250,6 +253,8 @@
 ## 2.4 Detection
 | Publication | Title                                                                                                             | Highlight |
 | ----------- | ----------------------------------------------------------------------------------------------------------------- | --------- |
+| CVPR 2023   | Recurrent Vision Transformers for Object Detection With Event Cameras                                                            |    🆕     |
+| CVPR 2023   | Hierarchical Neural Memory Network for Low Latency Event Processing                                                            |    🆕     |
 | IROS 2018   | Towards Event-Driven Object Detection with Off-the-Shelf Deep Learning                                            |           |
 | CVPR 2018   | Pseudo-Labels for Supervised Learning on Dynamic Vision Sensor Data, Applied to Object Detection Under Ego-Motion |           |
 | ACCVW 2018  | PCA-RECT: An Energy-Efficient Object Detection Approach for Event Cameras                                         |           |
@@ -270,7 +275,8 @@
 ## 2.5 Segmentation
 | Publication | Title                                                                                                                          | Highlight |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------ | --------- |
-| CVPRW 2019  | EV-SegNet: Semantic Segmentation for Event-Based Cameras                                                                       |            |
+| CVPR 2023   | Hierarchical Neural Memory Network for Low Latency Event Processing                                                            |    🆕     |
+| CVPRW 2019  | EV-SegNet: Semantic Segmentation for Event-Based Cameras                                                                       |           |
 | ICDSP 2021  | VESS: Variable Event Stream Structure for Event-based Instance Segmentation Benchmark                                          |
 | IROS 2021   | ISSAFE: Improving Semantic Segmentation in Accidents by Fusing Event-based Data                                                |            |
 | ICNOS 2021  | Superevents: Towards Native Semantic Segmentation for Event-based Cameras                                                      |
@@ -307,6 +313,7 @@
 
 | Publication | Title                                                                                                                            | Highlight                              |
 | ----------- | -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| CVPR 2023   | Learning Spatial-Temporal Implicit Neural Representations for Event-Guided Video Super-Resolution | INR 🆕 |
 | CVPR 2020   | EventSR: From Asynchronous Events to Image Reconstruction, Restoration, and Super-Resolution via End-to-End Adversarial Learning | EventSR; End2end; Adversarial learning |
 | TAPMI 2020  | E2SRI: Learning to Super-Resolve Intensity Images from Events                                                                    | SR-Net; RCNN                           |
 
@@ -354,7 +361,10 @@
 ## 3.5 Event Guided Video Interpolation
 
 | Publication | Title                                                                                               | Highlight                 |
-| ----------- | --------------------------------------------------------------------------------------------------- | ------------------------- |
+| ----------- | --------------------------------------------------------------------------------------------------- | ------------------------- | 
+| CVPR 2023   | Event-Based Blurry Frame Interpolation Under Blind Exposure                                         |            🆕             |
+| CVPR 2023   | Event-Based Video Frame Interpolation With Cross-Modal Asymmetric Bidirectional Motion Fields       |            🆕             |
+| CVPR 2023   | Event-Based Frame Interpolation With Ad-Hoc Deblurring                                              |            🆕             |
 | CVPR 2022   | TimeReplayer: Unlocking the Potential of Event Cameras for Video Interpolation                      |                           |
 | CVPR 2022   | E-CIR: Event-Enhanced Continuous Intensity Recovery                                                 |                           |
 | CVPR 2022   | Time Lens++: Event-based Frame Interpolation with Parametric Non-linear Flow and Multi-scale Fusion | Dataset                   |
@@ -369,6 +379,7 @@
 ## 3.6 Depth estimation
 | Publication | Title                                                               | Highlight |
 | ----------- | ------------------------------------------------------------------- | --------- |
+| CVPR 2023   | Hierarchical Neural Memory Network for Low Latency Event Processing                                                            |    🆕     |
 | ICCV 2021   | Event-Intensity Stereo: Estimating Depth by the Best of Both Worlds |           |
 
 # 4 Domain Specific
@@ -378,7 +389,7 @@
 
 | Publication | Title                                                                                     | Highlight |
 | ----------- | ----------------------------------------------------------------------------------------  | --------- |
-| Arxiv 2022  | EventNeRF: Neural Radiance Fields from a Single Colour Event Camera                                      |           |
+| CVPR  2023  | EventNeRF: Neural Radiance Fields from a Single Colour Event Camera                                      |    🆕     |
 | Arxiv 2022  | Ev-NeRF: Event Based Neural Radiance Field                                                               |           |
 | Arxiv 2022  | E-NeRF: Neural Radiance Fields from a Moving Event Camera                                                |           |
 | IJCV  2018  | EMVS: Event-Based Multi-View Stereo—3D Reconstruction with an Event Camera in Real-Time                  |           |
@@ -441,6 +452,7 @@
 This section focuses on event-based detection/tracking tasks for Robotics implementation.
 | Publication | Title                                                        | Highlight |
 | ----------- | ------------------------------------------------------------ | --------- |
+| CVPR 2022   | Frame-Event Alignment and Fusion Network for High Frame Rate Tracking      |     🆕      | 
 | RAL 2022   | EV-Catcher: High-Speed Object Catching Using Low-Latency Event-Based Neural Networks      | DL        | 
 | IEEE Robot & Automat 2021| Fast motion understanding with spatiotemporal neural networks and dynamic vision sensors |DL |
 | arxiv 2021  | EVReflex: Dense Time-to-Impact Prediction for Event-based Obstacle Avoidance.             | DL        | 
@@ -463,17 +475,19 @@ Foundational Event-based SLAM (no-deep learning) for pure discussion.
 
 | Publication | Title                                                        | Highlight |
 | ----------- | ------------------------------------------------------------ | --------- |
+| CVPR 2023   | [Data-driven Feature Tracking for Event Cameras](https://github.com/uzh-rpg/deep_ev_tracker) |    🆕     |
 | PAMI 2021   | luvHarris: A Practical Corner Detector for Event-Cameras                                   | no DL     |
 | CVPR-W 2019 | Fast Event-based Corner Detection                                                          | no DL     |
 | IROS 2019   | Fa-harris: A fast and asynchronous corner detector for event cameras                       | no DL     |
 | CVPR-W 2019 | Speed Invariant Time Surface for Learning to Detect Corner Points with Event-Based Cameras | ML        |
-| ECCV 2018  | Asynchronous, Photometric Feature Tracking using Events and Frames                  | ML     |
+| ECCV 2018   | Asynchronous, Photometric Feature Tracking using Events and Frames                         | ML     |
 | 3DV 2018    | ACE: An efficient asynchronous corner tracker for event cameras                            | no DL     |
 
 #### 5.2.1.2 Optical Flow for Tracking
 
 | Publication | Title                                                        | Highlight |
 | ----------- | ------------------------------------------------------------ | --------- |
+| CVPR 2023 | Tangentially Elongated Gaussian Belief Propagation for Event-Based Incremental Optical Flow Estimation                            | 🆕 | 
 | ECCV 2022 | Secrets of Event-Based Optical Flow                            | no DL | 
 | 3DV 2021 | E-RAFT: Dense Optical Flow from Event Cameras                   | DL | 
 | T-PAMI 2020| Unsupervised Learning of a Hierarchical Spiking Neural Network for Optical Flow Estimation: From Events to Global Motion Perception | DL | 
@@ -493,6 +507,7 @@ CVPR and IROS present the united framework for optical flow, depth and ego-motio
 
 | Publication | Title                                                        | Highlight |
 | ----------- | ------------------------------------------------------------ | --------- |
+| CVPR  2022| Progressive Spatio-Temporal Alignment for Efficient Event-Based Motion Estimation  | 🆕 | 
 | ARXIV 2022| EAGAN: Event‐based attention generative adversarial networks for optical flow and depth estimation | DL | 
 | IROS 2020| Unsupervised Learning of Dense Optical Flow, Depth and Egomotion with Event-Based Sensors | DL | 
 | CVPR 2019| Unsupervised Event-Based Learning of Optical Flow, Depth, and Egomotion | DL | 
@@ -523,9 +538,11 @@ CVPR and IROS present the united framework for optical flow, depth and ego-motio
 # 6 New Direction
 | Publication | Title                                                        | Highlight |
 | ----------- | ------------------------------------------------------------ | --------- |
-| | | | 
-| | | | 
-| | | | 
+| CVPR 2023| Event-based Shape from Polarization |Shape from Polarization 🆕 | 
+| CVPR2023 | Event-Guided Person Re-Identification via Sparse-Dense Complementary Learning | Person Re-Identification 🆕| 
+| CVPR 2023| Adaptive Global Decay Process for Event Cameras | 🆕| 
+| CVPR 2023| Learning Adaptive Dense Event Stereo From the Image Domain | 🆕| 
+
 
 # 7 Discussion
 
