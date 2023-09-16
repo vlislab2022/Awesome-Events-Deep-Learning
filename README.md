@@ -253,8 +253,10 @@
 ## 2.4 Detection
 | Publication | Title                                                                                                             | Highlight |
 | ----------- | ----------------------------------------------------------------------------------------------------------------- | --------- |
-| CVPR 2023   | Recurrent Vision Transformers for Object Detection With Event Cameras                                                            |    🆕     |
-| CVPR 2023   | Hierarchical Neural Memory Network for Low Latency Event Processing                                                            |    🆕     |
+| ICRA 2023    | RGB-Event Fusion for Moving Object Detection in Autonomous Driving                                               |    🆕     |
+| TIM 2023    | Motion Robust High-Speed Light-Weighted Object Detection With Event Camera                                        |    🆕     |
+| CVPR 2023   | Recurrent Vision Transformers for Object Detection With Event Cameras                                             |    🆕     |
+| CVPR 2023   | Hierarchical Neural Memory Network for Low Latency Event Processing                                               |    🆕     |
 | IROS 2018   | Towards Event-Driven Object Detection with Off-the-Shelf Deep Learning                                            |           |
 | CVPR 2018   | Pseudo-Labels for Supervised Learning on Dynamic Vision Sensor Data, Applied to Object Detection Under Ego-Motion |           |
 | ACCVW 2018  | PCA-RECT: An Energy-Efficient Object Detection Approach for Event Cameras                                         |           |
@@ -275,6 +277,7 @@
 ## 2.5 Segmentation
 | Publication | Title                                                                                                                          | Highlight |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------ | --------- |
+| TIP 2023   | Event-Based Semantic Segmentation With Posterior Attention                                                                     |    🆕     |
 | CVPR 2023   | Hierarchical Neural Memory Network for Low Latency Event Processing                                                            |    🆕     |
 | CVPRW 2019  | EV-SegNet: Semantic Segmentation for Event-Based Cameras                                                                       |           |
 | ICDSP 2021  | VESS: Variable Event Stream Structure for Event-based Instance Segmentation Benchmark                                          |
@@ -321,6 +324,8 @@
 ## 3.2 Event Guided Image / Video Deblurring
 | Publication | Title                                                               | Highlight                |
 | ----------- | ------------------------------------------------------------------- | ------------------------ |
+| IJCV 2023   | Event-guided Multi-patch Network with Self-supervision for Non-uniform Motion Deblurring              | 🆕 |
+| CVPR 2023   | Event-Based Frame Interpolation With Ad-Hoc Deblurring              | 🆕 |
 | ECCV 2020   | Event Enhanced High-Quality Image Recovery                          | eSL-Net; Sparse learning |
 | ECCV 2022   | Event-guided Deblurring of Unknown Exposure Time Videos             | ETES; Cross-modal        |
 | T-CAI       | Robust motion compensation for event cameras with smooth constraint |                          |
@@ -348,6 +353,7 @@
 ### (1) Low Light
 | Publication | Title                                   | Highlight |
 | ----------- | --------------------------------------- | --------- |
+| AAAI 2023   | Low-Light Video Enhancement with Synthetic Event Guidance |     🆕       |
 | ECCV 2020   | Learning to See in the Dark with Events |           |
 
 ## 3.4 Event Guided Image / Video Denoising
@@ -389,9 +395,9 @@
 
 | Publication | Title                                                                                     | Highlight |
 | ----------- | ----------------------------------------------------------------------------------------  | --------- |
+| WACV 2023  | Ev-NeRF: Event Based Neural Radiance Field                                                                |    🆕     |
+| RAL  2023  | E-NeRF: Neural Radiance Fields from a Moving Event Camera                                                 |    🆕     |
 | CVPR  2023  | EventNeRF: Neural Radiance Fields from a Single Colour Event Camera                                      |    🆕     |
-| Arxiv 2022  | Ev-NeRF: Event Based Neural Radiance Field                                                               |           |
-| Arxiv 2022  | E-NeRF: Neural Radiance Fields from a Moving Event Camera                                                |           |
 | IJCV  2018  | EMVS: Event-Based Multi-View Stereo—3D Reconstruction with an Event Camera in Real-Time                  |           |
 | Arxiv 2020  | E3D: Event-Based 3D Shape Reconstruction                                                                 |           |
 | ECCV  2022  | EvAC3D: From Event-based Apparent Contours to 3D Models via Continuous Visual Hulls                      |           |
