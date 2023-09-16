@@ -13,10 +13,6 @@
   </p>
 </p>
 
-## DDL Time:
-
-2023-01-15
-
 <h2>Table of contents</h2>
 
 - [1  Event Representation](#1--event-representation)
@@ -155,6 +151,7 @@
 ## 2.1 Image / Video Reconstruction
 | Publication | Title                                                                                                                                              | Highlight |
 | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
+| CVPRW 2023   | Sparse-E2VID: A Sparse Convolutional Model for Event-Based Video Reconstruction Trained With Real Event Noise |      🆕     |
 | CVPR 2023   | EvShutter: Transforming Events for Unconstrained Rolling Shutter Correction |      🆕     |
 | CVPR 2023   | Learning Event Guided High Dynamic Range Video Reconstruction |      🆕     |
 | CVPR 2021   | Image Reconstruction From Neuromorphic Event Cameras Using Laplacian-Prediction and Poisson Integration With Spiking and Artificial Neural Networks |           |
@@ -174,7 +171,7 @@
 ### (1) Reconstruction and SR
 | Publication         | Title                                                                                                                            | Highlight                                    |
 | ------------------- | -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
-| CVPR 2023           | High-Fidelity Event-Radiance Recovery via Transient Event Frequency                                                              | High-fidelity Event-Radiance Recovery 🆕     |
+|            | High-Fidelity Event-Radiance Recovery via Transient Event Frequency                                                              | High-fidelity Event-Radiance Recovery 🆕     |
 | ICCV 2021           | EvIntSR-Net: Event Guided Multiple Latent Frames Reconstruction and Super-resolution                                             | Latent frame reconstruction; MISR            |
 | ECCV 2020           | Event Enhanced High-Quality Image Recovery                                                                                       | eSL-Net; Sparse learning                     |
 | CVPR 2020           | Joint Filtering of Intensity Images and Neuromorphic Events for High-Resolution Noise-Robust Imaging                             | GEF; Joint filtering                         |
